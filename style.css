@@ -1,0 +1,406 @@
+html,
+body {
+  background: #fff;
+  font-family: inter, sans-serif;
+}
+ 
+.navbar{
+  width: 1400px;
+  height: 75px;
+  margin-bottom: -50px;
+  padding-left: 50px;
+ 
+  background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color:black;
+  font-size: 25px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 5px;
+}
+
+.logoimg{
+  margin-left: -125px;
+  margin-top: 27px;
+}
+
+.menuitem{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+.menuitem ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuitem li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+
+}
+
+.menuitem a{
+  text-decoration: none;
+  color: #656464;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 250px;
+}
+
+.srch {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid grey;
+  margin-top: 14px;
+  font-size: 12px;
+  float: left;
+  border-radius: 8px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #217BF4;
+  border: 1px solid;
+  margin-top: 14px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+
+  .hero-section {
+    display: flex;
+    height: 746px;
+    width: 1400px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);;
+  }
+
+  .hero-section img {
+    margin-top: 60px;
+   margin-right: 135.48px;
+    height: 585.52px;
+  }
+
+  .netbtn1{
+  width: 177px;
+  height: 36px;
+  background: #6394d4;
+  border: transparent;
+  margin-top: 14px;
+  margin-right: 300px;
+  color: #217BF4;
+  font-size: 12px;
+  border-radius: 8px;
+  }
+
+  .netbtn2{
+    width: 162px;
+    height: 62px;
+    background: #217BF4;
+    border: transparent;
+    margin-top: 14px;
+    margin-right: 280px;
+    margin-left: -40px;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+    }
+
+    .netbtn3{
+      width: 162px;
+      height: 62px;
+      background: transparent;
+      border:1px solid #217BF4 ;
+      margin-top: 14px;
+      margin-left: -250px;
+      color: #217BF4 ;
+      font-size: 12px;
+      border-radius: 8px;
+      }
+
+  .contentlist{
+    display: flex;
+    list-style: none;
+  }
+
+  .hero-section h1 {
+    font-weight: 700;
+    font-size: 46px;
+  }
+
+  .hero-section h4 {
+    font-size: 16px;
+    line-height: 2.0rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135.48px;
+    color: #000;
+  }
+
+  .join{
+    display: flex;
+    justify-content: space-around;
+    margin-top:60px;
+  }
+
+.seccontent{
+  margin-top: 70px;
+  margin-right: 20px;
+  line-height: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+  .join h4{
+    font-size: 36px;
+    color: #0A093D;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+  .join h6{
+    font-size: 12px;
+    color: #6394d4;
+  }
+
+  .join li{
+    list-style-type: style circle, solid, #6394d4 ;
+  
+  }
+  .join img{
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .topimage{
+    margin-right: -100px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .image{
+    display: flex;
+    flex-direction: column;
+    column-gap: 3.0rem;
+    height: 225px;
+    width: 290px;   
+  }
+
+  .community {
+    height: 1069px;
+  }
+
+  .team {
+    margin-top: 170px;
+    height: 700px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+  }
+
+  .team h4{
+    font-size: 36px;
+  color: #0A093D;
+  line-height: 52px;
+  font-weight: 700;
+
+  }
+
+  .team h6{
+    font-size: 12px;
+    color: #6394d4;
+  }
+
+  .teambtn{
+    width: 100px;
+    height: 40px;
+    border:transparent;
+    background: #6394d4;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+
+  .team img{
+    margin-top: 20px;
+    border-radius: 80px;
+    background-color: #D4E7FE;
+   
+  }
+/*
+  .img2{
+    width: 25%;
+    position: absloute;
+    top: 20px;
+    left: 40px;
+  }
+*/
+  .teaming{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+  }
+
+  .teaming h4{
+ font-size: 24px;
+  }
+
+  .teamcard{
+    background-color: #FFFFFF;
+    width: 217px;
+    height: 316px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+  }
+
+  .teamcard:hover {
+    box-shadow: -10px 30px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .download {
+    height:560px;
+    background-color: #E5F0FD;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.download h4{
+  font-size: 36px;
+  color: #0A093D;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.download2 img{
+  margin-bottom: 30px;
+  margin-right: -50px;
+  height: 585px;
+  width: 660px;
+}
+
+.newsheading{
+  text-align: center;
+  line-height: 2.0rem;
+  padding-top: 20px;
+} 
+
+.newsheading h3{
+  color:#0A093D;
+  font-weight: 700;
+  line-height: 2.0rem;
+  font-size: 36px;
+} 
+
+.latestnewsc{
+  text-align: center;
+}
+
+  .latestnews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+  }
+
+  .latestnews img{
+    border-radius: 8px;
+    height: 363px;
+  }
+
+.footer {
+    display: flex;
+    width: 1400px;
+    height: 389px;
+    background-color: #2B2B39;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    line-height: 4.0rem;
+    row-gap: 10rem;
+    padding: -3rem;
+    
+}
+
+.footer ul{
+    list-style: none;
+    gap: 3.0rem;
+}
+
+.footer h4 {
+  text-align: center;
+}
+
+.newsletter{
+  margin-left: 200px;
+  margin-top: -60px;
+  text-align: left;
+  line-height: 3.0rem;
+}
+
+.newsletter h4{
+  text-align: left;
+}
+
+.mail{
+  background: transparent;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 203px;
+  height: 48px;
+}
+
+.subscribe{
+  background: white;
+  color: black;
+  border: transparent;
+  border-radius: 8px;
+  width: 126px;
+  height: 48px;
+}
+
+
+.footer h6 {
+  line-height: 3.0rem;
+}
+/*
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 96px;
+  background-color: #000
+  color white;
+}
